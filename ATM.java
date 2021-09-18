@@ -18,8 +18,8 @@ public int countBanknotes(int sum){
     }
        
         public static void main(String[] args) {
-        ATM atm = new ATM();
+        ATM test = new ATM();
         // should be 8 (500 + 200 + 50 + 20 + 10 + 5 + 2 + 1);
-        System.out.println(atm.countBanknotes(788));
+        System.out.println(test.countBanknotes(788));
     }
 }
