@@ -16,4 +16,10 @@ public int countBanknotes(int sum){
         }
         return result;
     }
+       
+        public static void main(String[] args) {
+        ATM helper = new ATM();
+        // should be 8 (500 + 200 + 50 + 20 + 10 + 5 + 2 + 2);
+        System.out.println(test.countBanknotes(789));
+    }
 }
