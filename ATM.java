@@ -1,4 +1,8 @@
-   public static int countBanknotes(int sum){
+import java.util.Arrays;  
+
+public class ATM {
+
+public int countBanknotes(int sum){
         int[] notes = new int[]{ 500, 200, 100, 50, 20, 10, 5, 2, 1 };
         int i = 0;
         int result = 0;
@@ -12,3 +16,4 @@
         }
         return result;
     }
+}
